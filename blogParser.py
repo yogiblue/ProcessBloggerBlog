@@ -23,10 +23,6 @@ def strip_tags(html):
     return s.get_data()
 
 
-print (os.getcwd())
-
-os.chdir('C:\\Users\\beetle2\\Documents\\CodeProjects\\markovbot-master')
-
 root = xml.etree.ElementTree.parse('blog.xml').getroot()
 
 #for child in root:
